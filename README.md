@@ -1,0 +1,2 @@
+# Aplicação de clima com API
+## Nesse projeto teremos um app, com uma interface inteligente, que de acordo com as cidade digitada, informara o clima da cidade, e trará ao fundo uma imagem correspondente a cidade digitada
