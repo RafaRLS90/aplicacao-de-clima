@@ -13,7 +13,7 @@ const countryElement = document.querySelector("#country")
 const humidityElement = document.querySelector("#humidity span")
 const windElement = document.querySelector("#wind span")
 
-
+const weatherContainer = document.querySelector("#weather-data");
 
 //Funções
 const getWeatherData = async(city) =>{
@@ -35,9 +35,10 @@ const showWeatherData = async (city) => {
    weatherIconElement.setAttribute("src", `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
 
    countryElement.setAttribute("src", apiContryURL + data.sys.country);
-    umidityElement.innerText = `${data.main.humidity}%`;
+    humidityElement.innerText = `${data.main.humidity}%`;
     windElement.innerText = `${data.wind.speed}km/h`;
 
+    weatherContainer.classList.remove("hide");
 };
 
 
@@ -49,3 +50,11 @@ searchBtn.addEventListener("click", (e) =>  {
     
     showWeatherData(city);
 });
+
+cityInput.addEventListener("keyup", (e) => {
+    if (e.code === "Enter") {
+        const city = e.target.value;
+
+        showWeatherData(city);
+    }
+})
