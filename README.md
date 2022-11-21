@@ -6,7 +6,7 @@
 ![Tela nicial](../Aplicacao_de_clima/images/inicio.png)
 ### Na tela inicial, tenos a opção de digitar o nome da cidade, e apertar o botão de busca, que nos dará acesso aos dados.
 
-![Mostrador do clima completo](./images/Captura%20de%20tela%202022-11-20%20222437.png)
+![Mostrador do clima completo](../images/Captura%20de%20tela%202022-11-20%20222437.png)
 ### Após clicarmos enter, temos na próxima tela, um mostrador detalhado, com as informações dispostas.
 
 
