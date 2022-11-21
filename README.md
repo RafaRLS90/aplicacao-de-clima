@@ -3,7 +3,7 @@
 # Aplicação de clima com API 
 ## Nesse projeto teremos um app, com uma interface inteligente, que de acordo com a cidade digitada, informará o clima da cidade, umidade e velocidade dos ventos.
 
-![Tela nicial](../Aplicacao_de_clima/images/inicio.png)
+![Tela nicial](./Aplicacao_de_clima/images/inicio.png)
 ### Na tela inicial, tenos a opção de digitar o nome da cidade, e apertar o botão de busca, que nos dará acesso aos dados.
 
 ![Mostrador do clima completo](../Aplicacao_de_clima/images/Captura%20de%20tela%202022-11-20%20222437.png)
