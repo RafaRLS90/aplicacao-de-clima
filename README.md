@@ -15,7 +15,7 @@
 
 ![Temperatura](./images/temperatura-clima.png)
 
-### A temeratura fica disponível em graus celsius
+### A temperatura fica disponível em graus celsius
 
 ![Umidade](./images/umidade.png)
 
